@@ -16,14 +16,16 @@ function Navbar() {
             <a href="#about-me">About</a>
           </li>
           <li>
-            <a href="#">Skills</a>
+            <a href="#skills-section">Skills</a>
           </li>
           <li>
             <a href="#">Project</a>
           </li>
         </ul>
       </nav>
-      <Button>contact me</Button>
+      <Button>
+        <a href="#contact">contact me</a>
+      </Button>
     </div>
   );
 }

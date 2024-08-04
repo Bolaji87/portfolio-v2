@@ -261,3 +261,58 @@
   width: 400px;
   background-color: green;
 }
+/* contact-section */
+#contact {
+  height: 100%;
+  padding: 20px;
+}
+#contact h1 {
+  font-size: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 45px;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#contact input {
+  height: 43px;
+  border: none;
+}
+#contact input::placeholder {
+  padding: 12px;
+  text-transform: uppercase;
+  font-size: 16px;
+  background-color: rgb(10, 77, 77);
+  color: #fff;
+}
+#contact input:focus {
+  border: none;
+}
+#contact textarea {
+  height: 90px;
+
+  border: none;
+}
+#contact textarea::placeholder {
+  height: 90px;
+  padding: 12px;
+  text-transform: uppercase;
+  font-size: 16px;
+  background-color: rgb(10, 77, 77);
+  color: #fff;
+  border: none;
+}
+#contact form button {
+  width: fit-content;
+  height: 65px;
+  border: none;
+  background-color: indianred;
+  font-size: 18px;
+  padding: 10px 14px;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
