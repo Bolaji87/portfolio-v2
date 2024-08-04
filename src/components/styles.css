@@ -320,6 +320,26 @@
 .footer {
   background-color: pink;
   width: 100%;
-  height: 130px;
+  min-height: fit-content;
   padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.footer .social-links {
+  display: flex;
+  gap: 25px;
+  padding: 15px;
+  margin-top: 40px;
+}
+.footer h1 {
+  text-align: center;
+  padding: 8px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.footer p {
+  margin-bottom: 20px;
 }
