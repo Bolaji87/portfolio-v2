@@ -264,7 +264,7 @@
 /* contact-section */
 #contact {
   height: 100%;
-  padding: 20px;
+  padding: 20px 0;
 }
 #contact h1 {
   font-size: 38px;
@@ -281,6 +281,7 @@
 #contact input {
   height: 43px;
   border: none;
+  width: 100%;
 }
 #contact input::placeholder {
   padding: 12px;
@@ -294,7 +295,7 @@
 }
 #contact textarea {
   height: 90px;
-
+  width: 100%;
   border: none;
 }
 #contact textarea::placeholder {
@@ -315,4 +316,10 @@
   padding: 10px 14px;
   text-transform: uppercase;
   border-radius: 2px;
+}
+.footer {
+  background-color: pink;
+  width: 100%;
+  height: 130px;
+  padding: 12px;
 }
