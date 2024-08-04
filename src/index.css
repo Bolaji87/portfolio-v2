@@ -25,4 +25,5 @@ body {
   background-color: rgb(164, 187, 184);
   width: 100dvw;
   height: 100dvh;
+  scroll-behavior: smooth;
 }
