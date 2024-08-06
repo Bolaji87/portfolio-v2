@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FaLinkedin } from "react-icons/fa6";
+<FaLinkedin />;
 function About() {
   return (
     <>
@@ -7,7 +8,7 @@ function About() {
         <h1 className="about-text">About</h1>
         <div className="">
           <h1>
-            Hi, I,m Bolaji, nice to <br />
+            Hi, I'm Bolaji, nice to <br />
             meet you. please take a look around
           </h1>
           <p>

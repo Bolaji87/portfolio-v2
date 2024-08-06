@@ -1,10 +1,13 @@
 import Button from "./Button";
+import { FaBold } from "react-icons/fa";
 import "./styles.css";
 function Navbar() {
   return (
     <div id="nav-bar">
       <h1>
-        Bo<span className="la">la</span>
+        <FaBold />
+        <span className="o">o</span>
+        <span className="la">la</span>
         <span className="ji">ji</span>
       </h1>
       <nav>

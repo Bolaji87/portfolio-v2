@@ -6,8 +6,10 @@
   align-items: center;
   padding: 15px 0;
   font-size: 18px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+
   scroll-behavior: smooth;
+  /* background-color: #ddd; */
 }
 
 #nav-bar nav {
@@ -23,25 +25,27 @@
   font-size: 18px;
   padding: 10px;
   color: #252323;
+  color: rgb(0, 9, 128);
 }
 #nav-bar li:hover {
   text-transform: capitalize;
   font-size: 18px;
   padding: 10px;
-  background-color: teal;
+  background-color: rgb(54, 127, 236);
   color: #fff;
   border-radius: 10px;
   cursor: pointer;
 }
 #nav-bar h1 {
-  color: green;
+  color: rgb(0, 9, 128);
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   padding: 8px;
+  display: flex;
+  align-items: center;
 }
 #nav-bar h1:hover {
-  background-color: teal;
   border-radius: 10px;
   padding: 8px;
   color: #fff;
@@ -56,8 +60,18 @@
   color: yellow;
 }
 #nav-bar button {
-  background-color: rgb(95, 51, 34);
-  background-color: teal;
+  background-color: rgb(0, 9, 128);
+  color: #fff;
+  padding: 10px;
+
+  border-radius: 10px;
+  /* color: #fff; */
+  font-size: 18px;
+  border: none;
+  text-transform: capitalize;
+}
+#nav-bar button:hover {
+  background-color: rgb(54, 127, 236);
   color: #fff;
   padding: 10px;
 
@@ -121,6 +135,7 @@
   padding: 8px;
   border-radius: 8px;
   background-color: rgb(9, 120, 128);
+  background-color: rgb(13, 55, 243);
   color: #fff;
   font-size: 22px;
 }
@@ -281,13 +296,15 @@
 #contact input {
   height: 43px;
   border: none;
+  outline: 1px solid rgb(29, 105, 204);
   width: 100%;
 }
 #contact input::placeholder {
   padding: 12px;
   text-transform: uppercase;
   font-size: 16px;
-  background-color: rgb(10, 77, 77);
+
+  background-color: rgb(145, 142, 142);
   color: #fff;
 }
 #contact input:focus {
@@ -297,13 +314,15 @@
   height: 90px;
   width: 100%;
   border: none;
+  outline: 1px solid rgb(29, 105, 204);
 }
 #contact textarea::placeholder {
   height: 90px;
   padding: 12px;
   text-transform: uppercase;
   font-size: 16px;
-  background-color: rgb(10, 77, 77);
+
+  background-color: rgb(145, 142, 142);
   color: #fff;
   border: none;
 }
@@ -311,14 +330,15 @@
   width: fit-content;
   height: 65px;
   border: none;
-  background-color: indianred;
+  background-color: rgb(226, 231, 177);
   font-size: 18px;
   padding: 10px 14px;
   text-transform: uppercase;
   border-radius: 2px;
 }
 .footer {
-  background-color: pink;
+  background-color: rgb(122, 122, 122);
+  background-color: rgb(212, 212, 212);
   width: 100%;
   min-height: fit-content;
   padding: 12px;

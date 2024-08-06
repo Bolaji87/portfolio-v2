@@ -22,7 +22,8 @@ h6 {
 }
 body {
   padding: 0 120px;
-  background-color: rgb(164, 187, 184);
+  background-color: rgb(155, 155, 155);
+  background-color: rgb(155, 155, 212);
   width: 100dvw;
   height: 100dvh;
   scroll-behavior: smooth;
