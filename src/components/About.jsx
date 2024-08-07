@@ -5,10 +5,10 @@ function About() {
   return (
     <>
       <div id="about-me">
-        <h1 className="about-text">About</h1>
+        <h1 className="about-header-text">About</h1>
         <div className="">
           <h1>
-            Hi, I'm Bolaji, nice to <br />
+            Hi, I'm Saka Bolaji, nice to <br />
             meet you. please take a look around
           </h1>
           <p>
@@ -31,7 +31,7 @@ function About() {
           </p>
         </div>
       </div>
-      <hr className="custom-hr" />
+      {/* <hr className="custom-hr" /> */}
     </>
   );
 }

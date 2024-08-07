@@ -26,9 +26,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <Button>
-        <a href="#contact">contact me</a>
-      </Button>
+      <Button>contact me</Button>
     </div>
   );
 }

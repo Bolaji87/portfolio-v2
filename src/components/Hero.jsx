@@ -26,7 +26,7 @@ function Hero() {
           <img src="./bolaji.jpg" alt="Bolaji image" />
         </div>
       </div>
-      <hr className="custom-hr" />
+      {/* <hr className="custom-hr" /> */}
     </>
   );
 }
